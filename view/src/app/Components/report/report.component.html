@@ -1,0 +1,36 @@
+<mat-card>
+   <mat-card-header>
+      <mat-card-title>
+         Report List
+      </mat-card-title>
+      <button mat-mini-fab color="primary" (click)="openCreateModal()"><i class="material-icons">add</i></button>
+   </mat-card-header>
+   <mat-card-content>
+      <div style="overflow-x:auto;">
+         <table class="table">
+            <thead class="thead-light">
+               <tr>
+                  <th>Employee</th>
+                  <th>Date</th>
+                  <th>Project</th>
+                  <th>Task</th>
+                  <th>Status</th>
+                  <th>Action</th>
+               </tr>
+            </thead>
+            <tbody>
+               <tr>
+                  <td>John</td>
+                  <td>2/1/2019</td>
+                  <td>Sample</td>
+                  <td>Sample Task</td>
+                  <td>Completed</td>
+                  <td class="list-button">
+                     <button mat-icon-button color="warn"><i class="material-icons">remove_circle_outline</i></button>
+                  </td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+   </mat-card-content>
+</mat-card>

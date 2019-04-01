@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+
+* {
+    outline: none !important;
+}
+body {
+    margin: 0% !important;
+}
+.header {
+    text-align: center;
+}
+.modal {
+    z-index: 1050 !important;
+}
+table {
+    text-align: center !important;
+}
+.list-button {
+    padding-top: 0 !important;
+    display: flex !important;
+    justify-content: center !important;
+}
+

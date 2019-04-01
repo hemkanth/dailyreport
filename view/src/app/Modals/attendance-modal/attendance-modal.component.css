@@ -1,0 +1,16 @@
+.modalContent {
+    font-size: 14px !important;
+}
+.attendance-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 85%;
+    margin: auto;
+}
+  
+.attendance-card-input {
+    width: 100%;
+}
+::ng-deep .cdk-overlay-container {
+    z-index: 2000 !important;
+}

@@ -1,0 +1,33 @@
+<mat-card>
+  <mat-card-header>
+    <mat-card-title>
+      Employee List
+    </mat-card-title>
+    <button mat-mini-fab color="primary" (click)="openCreateModal()"><i class="material-icons">add</i></button>
+  </mat-card-header>
+  <mat-card-content>
+    <div style="overflow-x:auto;">
+      <table class="table">
+        <thead class="thead-light">
+          <tr>
+            <th>Name</th>
+            <th>Mobile Number</th>
+            <th>E-Mail</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>John</td>
+            <td>123456789</td>
+            <td>sample@mail.com</td>
+            <td class="list-button">
+              <button mat-icon-button><i class="material-icons">account_circle</i></button>
+              <button mat-icon-button color="warn"><i class="material-icons">remove_circle_outline</i></button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </mat-card-content>
+</mat-card>

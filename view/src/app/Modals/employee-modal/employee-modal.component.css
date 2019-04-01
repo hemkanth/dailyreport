@@ -1,0 +1,19 @@
+.modalContent {
+    font-size: 14px !important;
+}
+.employee-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 85%;
+    margin: auto;
+}
+  
+.employee-card-input {
+    width: 100%;
+}
+.filed-button {
+    float: right;
+}
+::ng-deep .cdk-overlay-container {
+    z-index: 2000 !important;
+}
