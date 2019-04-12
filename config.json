@@ -1,0 +1,7 @@
+{
+    "PORT" : "5000",
+    "DATABASE" : "mongodb://aashi:aashi_123@ds147659.mlab.com:47659/dailyreport",
+    "DECRYPT_KEY" : "PrivateKey@IN#123",
+    "ENCRYPT_KEY" : "PrivateKey@OUT#123",
+    "ROLE_VALUE" : "10"
+}
